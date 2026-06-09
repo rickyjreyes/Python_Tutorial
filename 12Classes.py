@@ -1,15 +1,26 @@
+# Classes.py
+#
+# Classes let us create our own data types with attributes and methods.
+
 class Customer(object):
-    """A class that makes customers."""
+    """A simple class that stores customer information."""
+
     def __init__(self, name, age, address):
         self.name = name
         self.age = age
         self.address = address
 
     def print_info(self):
-        print("Customer Name: %s Age: %i Address: %d" % (self.name, self.age, self.address))
+        print("Customer Name: %s Age: %i Address: %s" % (self.name, self.age, self.address))
 
-Jimmy = Customer("Jimmy", 17, True)
-Liz = Customer("Liz", 25, False)
+    def birthday(self):
+        self.age += 1
+        print(self.name, "is now", self.age)
 
-Jimmy.print_info()
-Liz.print_info()
+
+jimmy = Customer("Jimmy", 17, "123 Python Lane")
+liz = Customer("Liz", 25, "456 Tutorial Street")
+
+jimmy.print_info()
+liz.print_info()
+jimmy.birthday()
