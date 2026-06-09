@@ -18,6 +18,9 @@ A beginner-friendly collection of small Python lessons. Each numbered file focus
 | 10 | `10Dictionaries.py` | Dictionaries, key/value access, and looping over data |
 | 11 | `11FileIO.py` | Reading and writing text files with `pathlib` |
 | 12 | `12Classes.py` | Classes, objects, attributes, and methods |
+| 13 | `13Modules.py` | Importing standard library modules and helper functions |
+| 14 | `14Exceptions.py` | Handling runtime errors with `try`/`except` |
+| 15 | `15Comprehensions.py` | Building lists and dictionaries with comprehensions |
 
 ## Running a lesson
 
@@ -35,3 +38,8 @@ Some lessons print sample output immediately. Lesson 1 asks for keyboard input s
 2. Change one or two values in the file and run it again.
 3. Add your own examples below the existing code.
 4. Try combining concepts, such as storing dictionaries in lists or putting file-reading code inside a function.
+5. Use `EXERCISES.md` for extra practice prompts after each topic.
+
+## What was missing
+
+The tutorial now covers a more complete beginner path: core syntax, common data structures, functions, file I/O, classes, imports/modules, exceptions, and comprehensions. The added exercise sheet gives learners next steps instead of only runnable examples.
