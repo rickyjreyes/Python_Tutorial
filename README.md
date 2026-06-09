@@ -39,7 +39,8 @@ Some lessons print sample output immediately. Lesson 1 asks for keyboard input s
 3. Add your own examples below the existing code.
 4. Try combining concepts, such as storing dictionaries in lists or putting file-reading code inside a function.
 5. Use `EXERCISES.md` for extra practice prompts after each topic.
+6. Check `ROADMAP.md` for recommended topics to add next.
 
 ## What was missing
 
-The tutorial now covers a more complete beginner path: core syntax, common data structures, functions, file I/O, classes, imports/modules, exceptions, and comprehensions. The added exercise sheet gives learners next steps instead of only runnable examples.
+The tutorial now covers a more complete beginner path: core syntax, common data structures, functions, file I/O, classes, imports/modules, exceptions, and comprehensions. The main missing pieces are deeper practice with user input, `for` loops, function return values, list methods, testing, debugging, packages, and small projects; see `ROADMAP.md` for a prioritized list.
