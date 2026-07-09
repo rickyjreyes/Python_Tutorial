@@ -1,4 +1,4 @@
-# 03_sorting.py
+# 17_sorting.py
 #
 # Python has built-in sorting tools. Learn these before writing sorting
 # algorithms by hand.

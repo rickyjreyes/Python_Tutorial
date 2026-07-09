@@ -1,7 +1,8 @@
-# Exceptions.py
+# 15_exceptions.py
 #
 # Exceptions are errors that happen while a program is running.
 # try/except lets your program handle expected problems gracefully.
+
 
 def divide_numbers(first_number, second_number):
     try:

@@ -1,24 +1,35 @@
 # Suggested Next Topics
 
-The tutorial now has three learning areas:
+The tutorial now has two ordered learning areas:
 
-1. Original beginner files at the repository root.
-2. Beginner additions in `beginner/`.
-3. Intermediate data structures and algorithms in `intermediate/`.
+1. Beginner Python lessons in `beginner/`, ordered from easiest to hardest.
+2. Intermediate data structures and algorithms in `intermediate/`, ordered by dependency.
 
-The added folders use zero-padded lesson numbers so GitHub displays the files in order.
+Both folders use zero-padded lesson numbers so GitHub displays the files in order.
 
-## Completed additions
-
-### Beginner folder
+## Completed beginner path
 
 | Lesson | File | Topic |
 | --- | --- | --- |
-| 01 | `beginner/01_sets.py` | Sets, uniqueness, membership, and set operations |
-| 02 | `beginner/02_classes_oop.py` | Classes, objects, attributes, methods, and simple OOP |
-| 03 | `beginner/03_sorting.py` | Built-in sorting with `sorted()` and `.sort()` |
+| 01 | `beginner/01_hello_world.py` | Printing, comments, and basic input |
+| 02 | `beginner/02_variables.py` | Variables, data types, assignment, and scope |
+| 03 | `beginner/03_math.py` | Arithmetic, built-in math helpers, and randomness |
+| 04 | `beginner/04_strings.py` | String indexing, slicing, formatting, and methods |
+| 05 | `beginner/05_conditionals.py` | Boolean comparisons and `if`/`else` statements |
+| 06 | `beginner/06_loops.py` | `while` loops, `for` loops, and loop control variables |
+| 07 | `beginner/07_lists.py` | Lists, indexing, slicing, and updating values |
+| 08 | `beginner/08_tuples.py` | Tuple creation and immutability |
+| 09 | `beginner/09_dictionaries.py` | Dictionaries, key/value access, and looping over data |
+| 10 | `beginner/10_sets.py` | Sets, uniqueness, membership, and set operations |
+| 11 | `beginner/11_functions.py` | Defining functions, parameters, and return values |
+| 12 | `beginner/12_file_io.py` | Reading and writing text files with `pathlib` |
+| 13 | `beginner/13_classes_oop.py` | Classes, objects, attributes, methods, and simple OOP |
+| 14 | `beginner/14_modules.py` | Importing standard library modules and helper functions |
+| 15 | `beginner/15_exceptions.py` | Handling runtime errors with `try`/`except` |
+| 16 | `beginner/16_comprehensions.py` | Building lists and dictionaries with comprehensions |
+| 17 | `beginner/17_sorting.py` | Built-in sorting with `sorted()` and `.sort()` |
 
-### Intermediate folder
+## Completed intermediate path
 
 | Lesson | File | Topic |
 | --- | --- | --- |
@@ -33,13 +44,10 @@ The added folders use zero-padded lesson numbers so GitHub displays the files in
 
 ## Recommended next beginner lessons
 
-1. `beginner/04_for_loops.py`
-2. `beginner/05_input_validation.py`
-3. `beginner/06_function_returns.py`
-4. `beginner/07_list_methods.py`
-5. `beginner/08_testing.py`
-6. `beginner/09_debugging.py`
-7. `beginner/10_mini_project.py`
+1. `beginner/18_input_validation.py`
+2. `beginner/19_testing.py`
+3. `beginner/20_debugging.py`
+4. `beginner/21_mini_project.py`
 
 ## Recommended next intermediate lessons
 
